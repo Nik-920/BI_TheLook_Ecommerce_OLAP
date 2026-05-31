@@ -56,10 +56,6 @@
       <FullPath>Dim Product.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Fact Inventory.dim</Name>
-      <FullPath>Fact Inventory.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Dim Order Status.dim</Name>
       <FullPath>Dim Order Status.dim</FullPath>
     </ProjectItem>

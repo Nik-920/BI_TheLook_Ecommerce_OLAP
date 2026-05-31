@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="39" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="1864" scrolltop="-339" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="24807" y="16320" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="39" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="1864" scrolltop="13636" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="24807" y="11070" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
@@ -672,7 +672,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-339</Value>
+      <Value>13636</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -829,25 +829,6 @@
         </Attribute>
         <Attribute dwd:design-time-name="49fdc744-9db3-492c-8fcd-235c63829aa9">
           <AttributeID>Postal Code</AttributeID>
-        </Attribute>
-      </Attributes>
-    </Dimension>
-    <Dimension dwd:design-time-name="c88da82c-6c7c-4798-824b-48d10b86d19a">
-      <ID>Fact Inventory</ID>
-      <Name>Fact Inventory</Name>
-      <DimensionID>Fact Inventory</DimensionID>
-      <Attributes>
-        <Attribute dwd:design-time-name="96f9b8ae-9705-4aa0-bb20-71e3db078dfc">
-          <AttributeID>Inventory Fact Key</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="35f4cad8-9544-4040-bb4a-a5d338b29d7a">
-          <AttributeID>Product Key</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="9bb9734b-ac04-42ed-8d90-cdcb2cb17638">
-          <AttributeID>Created Date Key</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="65b14955-e5a8-4520-a946-ea2cfeeee067">
-          <AttributeID>Sold Date Key</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
@@ -1412,24 +1393,6 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="a90de8d2-1326-4d67-9dd1-9dd856ba6074">
-          <CubeDimensionID>Fact Inventory</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="e45dbd8b-57b4-4401-b3ee-75317a6655b8">
-              <AttributeID>Inventory Fact Key</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="bda6242a-654e-497b-af39-af4af39cfc85">
-                  <DataType>BigInt</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4ef2ecfc-d484-493e-ba4f-67e958468427">
-                    <TableID>dbo_fact_inventory</TableID>
-                    <ColumnID>inventory_fact_key</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
         <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c700093d-2fed-46ad-81ac-2551ebc8a402">
           <CubeDimensionID>Dim Product</CubeDimensionID>
           <Attributes>
