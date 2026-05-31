@@ -1104,6 +1104,9 @@
         <Attribute dwd:design-time-name="6427b706-c00c-4b6c-aa6f-d5fa75dcb076">
           <AttributeID>Order Item Status Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="9f88cb44-b6c9-48f2-ac17-85ef2a4a81e9">
+          <AttributeID>Order Item Status Name</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="fa4ac1c7-d57d-4c57-84e0-dff957a7c56e">
