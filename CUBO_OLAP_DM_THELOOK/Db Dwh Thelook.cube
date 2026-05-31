@@ -815,6 +815,15 @@
         <Attribute dwd:design-time-name="d0bc0c74-8c4c-4397-b924-9b3548b071e4">
           <AttributeID>Event Location Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="230fd894-f7e7-4a74-bf37-4da5c51ad9f3">
+          <AttributeID>City Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d30456db-ebb1-43b3-888f-e67bed466ec0">
+          <AttributeID>State Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="49fdc744-9db3-492c-8fcd-235c63829aa9">
+          <AttributeID>Postal Code</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="c88da82c-6c7c-4798-824b-48d10b86d19a">
