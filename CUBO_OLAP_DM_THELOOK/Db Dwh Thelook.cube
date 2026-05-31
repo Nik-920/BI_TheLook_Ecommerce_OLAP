@@ -789,6 +789,9 @@
         <Attribute dwd:design-time-name="3ae70c20-173a-429a-b25a-725db6f7708d">
           <AttributeID>Traffic Source Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="2a363029-28a7-4f7b-b6ca-10b07fe2c3de">
+          <AttributeID>Traffic Source Name</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="4f6e3062-3a15-4190-a159-22d341f89c93">
