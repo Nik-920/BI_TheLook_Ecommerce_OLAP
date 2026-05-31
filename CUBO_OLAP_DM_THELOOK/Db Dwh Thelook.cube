@@ -776,6 +776,9 @@
         <Attribute dwd:design-time-name="5877f635-a2d7-4b21-9d0b-bced43ebbd9d">
           <AttributeID>Browser Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="31894d8a-995e-4c1c-a4d6-ef9cccc4a6ae">
+          <AttributeID>Browser Name</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="8b8c51b5-3349-4aca-8d82-6693ef80bdeb">
