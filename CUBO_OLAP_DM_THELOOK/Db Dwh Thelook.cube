@@ -690,37 +690,6 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="811db5eb-3747-4837-be64-f9dcfd40d5b1">
-      <ID>Fact Events</ID>
-      <Name>Fact Events</Name>
-      <DimensionID>Fact Events</DimensionID>
-      <Attributes>
-        <Attribute dwd:design-time-name="55953940-449b-4c21-94aa-3b2ac469620b">
-          <AttributeID>Event Fact Key</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="d9127bf6-c67f-42e3-9d16-7928706e6806">
-          <AttributeID>User Key</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="4352a4af-e5da-4c8e-84aa-aba86806aff9">
-          <AttributeID>Session Key</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="19b68111-20f7-4dfd-b257-6df2eee699ac">
-          <AttributeID>Browser Key</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="9d7f3eb4-1eac-448d-a8ab-2a72b0147bfa">
-          <AttributeID>Traffic Source Key</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="959a9c72-2dcb-483f-803b-09ceb5df5e97">
-          <AttributeID>Event Type Key</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="635cae89-07dd-4b18-9c87-deee0f215020">
-          <AttributeID>Event Location Key</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="9a1d9ec3-89c6-4a48-b799-f8907df1e3be">
-          <AttributeID>Event Date Key</AttributeID>
-        </Attribute>
-      </Attributes>
-    </Dimension>
     <Dimension dwd:design-time-name="0e4f10c8-271d-4d34-8b4b-eaa7b13f887d">
       <ID>Dim User</ID>
       <Name>Dim User</Name>
@@ -1212,24 +1181,6 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="d9117b0f-ddc2-46fe-8adf-750b9d18956c">
-          <CubeDimensionID>Fact Events</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="52b1f59d-b321-409c-9908-8c1b03357347">
-              <AttributeID>Event Fact Key</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="460dd91b-ee1b-4300-b98e-575360457e1b">
-                  <DataType>BigInt</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2391cc34-faae-4346-8855-cab3d46ae73d">
-                    <TableID>dbo_fact_events</TableID>
-                    <ColumnID>event_fact_key</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
         <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2d19ca3a-2576-4c93-857f-c0d7e54a48bb">
           <CubeDimensionID>Dim User</CubeDimensionID>
           <Attributes>

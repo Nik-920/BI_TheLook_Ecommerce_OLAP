@@ -48,10 +48,6 @@
       <FullPath>Dim Date.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Fact Events.dim</Name>
-      <FullPath>Fact Events.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Dim Product.dim</Name>
       <FullPath>Dim Product.dim</FullPath>
     </ProjectItem>
