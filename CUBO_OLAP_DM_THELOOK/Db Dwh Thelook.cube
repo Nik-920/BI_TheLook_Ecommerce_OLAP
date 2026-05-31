@@ -766,6 +766,12 @@
         <Attribute dwd:design-time-name="0d1a724e-33ce-44b5-952b-b1a9d4a6e0f0">
           <AttributeID>Session Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="b65a46a0-c5bb-41a4-b142-ef7cb0d167f1">
+          <AttributeID>Session Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="aa6a4373-5f76-4c87-bb9f-0d1639521f46">
+          <AttributeID>Session Created At</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="ba65cd74-a111-4f33-ace8-c304e5f035d0">
