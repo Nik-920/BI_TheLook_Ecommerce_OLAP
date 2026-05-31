@@ -943,6 +943,9 @@
         <Attribute dwd:design-time-name="47242d7c-179d-41a1-be11-927f36c81d2e">
           <AttributeID>Order Status Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="ca79bfa0-d5ce-495f-a210-3833d4edba42">
+          <AttributeID>Order Status Name</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="709304cc-4de2-4ed6-a153-2f17ab688574">
