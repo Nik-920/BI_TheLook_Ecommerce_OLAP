@@ -835,6 +835,30 @@
         <Attribute dwd:design-time-name="a18848b0-7a1b-4baa-90f9-f38a5075d5a0">
           <AttributeID>Product Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="4dba36a1-8453-435b-a89e-46dde4139483">
+          <AttributeID>Product Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7a484247-4e27-4fa7-9fa3-99e82a696284">
+          <AttributeID>Product Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3029b85d-23ed-4e8b-9b16-86395445e55a">
+          <AttributeID>Category Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1612430e-f958-4bc8-a577-cea48524d181">
+          <AttributeID>Sku</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fab33fc6-b20b-422f-a19c-1e2d4929da21">
+          <AttributeID>Brand Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4cc37a8e-8391-4e1c-9879-280d22e7daf7">
+          <AttributeID>Department Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="70a8529e-c583-4892-b994-cb9179502774">
+          <AttributeID>Product Cost</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="07348f76-2ee3-4ea5-a191-e4a9ba4dee5e">
+          <AttributeID>Retail Price</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="9aa1bbfb-ec26-42cf-84ca-b4e4faec8fc5">
