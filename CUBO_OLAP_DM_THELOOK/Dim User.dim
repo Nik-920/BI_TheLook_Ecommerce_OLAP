@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2647" scrolltop="-5660" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="18415" y="11070" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2647" scrolltop="-5660" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="17505" y="11070" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
@@ -65,6 +65,50 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
       <Value>100</Value>
     </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="179">
+            <Shape Id="User Key" Expanded="true">
+              <Attributes>
+                <Attribute Id="User Key" />
+                <Attribute Id="Age" />
+                <Attribute Id="Gender Name" />
+                <Attribute Id="Traffic Source Name" />
+                <Attribute Id="User Created At" />
+                <Attribute Id="User Id" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Postal Code" Expanded="false">
+              <Attributes>
+                <Attribute Id="Postal Code" />
+              </Attributes>
+              <Position x="248" y="20" />
+            </Shape>
+            <Shape Id="City Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="City Name" />
+              </Attributes>
+              <Position x="477" y="20" />
+            </Shape>
+            <Shape Id="State Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="State Name" />
+              </Attributes>
+              <Position x="706" y="20" />
+            </Shape>
+            <Shape Id="Country Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Country Name" />
+              </Attributes>
+              <Position x="935" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
@@ -111,18 +155,6 @@
         <AttributeRelationship dwd:design-time-name="f47caccf-582d-4632-879c-3c3de31cb8f9">
           <AttributeID>Postal Code</AttributeID>
           <Name>Postal Code</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="3052f922-abcd-40a3-be19-620539ed95e2">
-          <AttributeID>City Name</AttributeID>
-          <Name>City Name</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="bc29571d-a547-46a1-a124-20acf998f836">
-          <AttributeID>State Name</AttributeID>
-          <Name>State Name</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="50a09bee-00c1-4795-bdc9-f208f5223237">
-          <AttributeID>Country Name</AttributeID>
-          <Name>Country Name</Name>
         </AttributeRelationship>
         <AttributeRelationship dwd:design-time-name="bf41ad36-b524-4b63-ae21-d9d417c8479c">
           <AttributeID>User Created At</AttributeID>
@@ -208,6 +240,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="4ed3943f-262c-4582-9b5e-121d9784e00f">
+          <AttributeID>City Name</AttributeID>
+          <Name>City Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -224,6 +262,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="bf738fe4-aaf5-4433-8bfb-e20a2d2f082c">
+          <AttributeID>State Name</AttributeID>
+          <Name>State Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -240,6 +284,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="1e36493a-dc84-4334-a22f-5c202bc5e41e">
+          <AttributeID>Country Name</AttributeID>
+          <Name>Country Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -275,5 +325,33 @@
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
   </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="6418ef54-13e7-4257-ba6f-2c38b4305fdc">
+      <ID>Jerarquía</ID>
+      <Name>Jerarquía</Name>
+      <Levels>
+        <Level dwd:design-time-name="1a87da11-1e4f-443a-bdff-4199b371397c">
+          <ID>Country Name</ID>
+          <Name>Country Name</Name>
+          <SourceAttributeID>Country Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="f583b5c9-7fae-4124-853e-9c4b63ff7d9b">
+          <ID>State Name</ID>
+          <Name>State Name</Name>
+          <SourceAttributeID>State Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="7ad3f5fd-8f8e-4247-8175-121723f53415">
+          <ID>City Name</ID>
+          <Name>City Name</Name>
+          <SourceAttributeID>City Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="e49c041c-246d-4268-aadc-78166fd07e93">
+          <ID>Postal Code</ID>
+          <Name>Postal Code</Name>
+          <SourceAttributeID>Postal Code</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>

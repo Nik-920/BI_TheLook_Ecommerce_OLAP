@@ -757,6 +757,11 @@
           <AttributeID>User Created At</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="508baa52-48c9-41d8-affd-df0635179b5b">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="2c417cee-283d-477b-9fb4-7923bf98b663">
       <ID>Dim Session</ID>
