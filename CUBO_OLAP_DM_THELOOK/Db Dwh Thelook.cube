@@ -869,6 +869,33 @@
         <Attribute dwd:design-time-name="a98a9f70-6f6f-4d4c-afc9-22a1ca9c384e">
           <AttributeID>Date Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="878d2ca0-73af-4ccf-b04d-f9bf569728cf">
+          <AttributeID>Full Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="95b51697-8582-4aeb-b5c9-9c35a283a8f3">
+          <AttributeID>Day Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="478deb28-ec9e-4bd3-9d74-94709f86ef2b">
+          <AttributeID>Day Name 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="80c2ada6-1ff2-40ce-8641-cf8788ead57d">
+          <AttributeID>Week Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dfe35d35-be7c-472a-a3b9-916ee9e3982d">
+          <AttributeID>Month Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4dff2595-bc14-4fb8-b9c9-a3e2cc9f6570">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8d72517a-cf59-463f-b33c-983f36f129f0">
+          <AttributeID>Quarter Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0f6f67a3-2b14-47bf-90ff-c0a2d551cd4b">
+          <AttributeID>Year Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9abc78a6-e085-4ece-b070-5e4d76915955">
+          <AttributeID>Is Weekend</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="4319373b-d689-4cbe-991c-3c59da18b1b0">
@@ -878,6 +905,33 @@
       <Attributes>
         <Attribute dwd:design-time-name="9b988aa3-208a-471c-8400-4c97b88349eb">
           <AttributeID>Date Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5dda242f-f453-477e-931a-417913d5d0c0">
+          <AttributeID>Full Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0a783196-3469-4b68-9af7-720e6a6aa346">
+          <AttributeID>Day Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ad9fc51a-197d-4412-b692-e2e29e1b462d">
+          <AttributeID>Day Name 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="16c8923b-a9b0-4a2e-a146-b9a6bc994138">
+          <AttributeID>Week Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="21402ca1-d96d-46b1-87d8-a6a3a92a6574">
+          <AttributeID>Month Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c0ab8012-bfd0-4235-8a05-fbc23b41fd7a">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="624a2700-a5ec-4c64-9074-0f6bd994946b">
+          <AttributeID>Quarter Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="29c53530-7e5b-42b7-95e1-46e4636943d3">
+          <AttributeID>Year Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a30f8fe1-d596-4608-81b4-ab033980b5e2">
+          <AttributeID>Is Weekend</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
@@ -899,6 +953,33 @@
         <Attribute dwd:design-time-name="99b57e44-a765-4279-ae29-fee941e2a1fb">
           <AttributeID>Date Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="f59a15f1-5937-4fd3-a3ee-456215353652">
+          <AttributeID>Full Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4f18d502-6990-44df-a19f-8201f0b08871">
+          <AttributeID>Day Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6cfb6d73-0e80-40e0-9b35-ffa28328f012">
+          <AttributeID>Day Name 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="63e536c8-0afc-46c5-9057-ff49b0081245">
+          <AttributeID>Week Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="816d24ec-04c3-4396-9079-31849a7b66fb">
+          <AttributeID>Month Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="eadc9a93-12f3-4ab0-af36-8d2e05f16633">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7fe0323b-f38d-4a4b-be90-6cf4a8ddc5dd">
+          <AttributeID>Quarter Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6f83e9c7-f02f-4c1e-9b50-9861fc0f75f4">
+          <AttributeID>Year Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="22863339-45c5-4ed5-9acf-8b0f514388b8">
+          <AttributeID>Is Weekend</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="db3f32c7-7877-4741-bda8-54972608cdf8">
@@ -908,6 +989,33 @@
       <Attributes>
         <Attribute dwd:design-time-name="faf51ca8-b48d-478a-8386-7e34d4ff2ece">
           <AttributeID>Date Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ed20242f-bade-4f87-af20-005098726054">
+          <AttributeID>Full Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="04d4039c-11a2-4889-a30c-97de7ca67632">
+          <AttributeID>Day Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="36d0dcc3-7ebe-4993-a5e6-7275283f904f">
+          <AttributeID>Day Name 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4b19dd14-bd1b-4c07-b9be-8f0874442614">
+          <AttributeID>Week Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="66b38302-e37e-49cf-9947-d8e059e5028b">
+          <AttributeID>Month Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="813f4b34-def6-45ed-a6df-76c57281ef05">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="07ae107e-a852-474c-9dab-76e525b8b6f2">
+          <AttributeID>Quarter Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c1ac30c0-00cc-446c-84f4-dd799895cd11">
+          <AttributeID>Year Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2b491a59-2060-4462-a059-e24d9a7665b0">
+          <AttributeID>Is Weekend</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
@@ -919,6 +1027,33 @@
         <Attribute dwd:design-time-name="df7cb3e7-07c2-458c-a360-b4e7aa1d927e">
           <AttributeID>Date Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="f908684d-d3bb-4212-ae34-81eb5f3dfe22">
+          <AttributeID>Full Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="628aff22-66f2-4685-8aef-460d18dba860">
+          <AttributeID>Day Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c53f9f3e-32bb-4714-a080-1de569ef5cc0">
+          <AttributeID>Day Name 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e7af296c-30f6-4de0-a9b6-cc3a07d9757a">
+          <AttributeID>Week Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dc4f2bcb-f31d-4ad9-8082-9c280c4b4d94">
+          <AttributeID>Month Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="eacdb216-fde0-46b0-b89c-e302cb8fc04a">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="113ae6de-e6ec-488e-86ea-5eb6b624d05e">
+          <AttributeID>Quarter Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a08adbdc-014a-41cc-b212-92025da8a001">
+          <AttributeID>Year Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="314ab9ba-3802-4092-8656-048beaeb8b03">
+          <AttributeID>Is Weekend</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="6f1d1643-b9a3-46b1-9beb-6f086ccc37d0">
@@ -928,6 +1063,33 @@
       <Attributes>
         <Attribute dwd:design-time-name="32cfae4b-7a15-48b7-bc80-9f97fadb8230">
           <AttributeID>Date Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c50384b2-cea1-4d6d-b939-327d1300d9b0">
+          <AttributeID>Full Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9b2da14d-fae7-48fa-9e29-ebafa2b690de">
+          <AttributeID>Day Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="844580f9-c015-4438-8567-8939c8669f8e">
+          <AttributeID>Day Name 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a07d17e5-e731-4719-86db-8d23a8164774">
+          <AttributeID>Week Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cdcbfa32-473e-4103-8ee0-4b6ea80e5f7b">
+          <AttributeID>Month Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1352d064-f991-4ee5-97f6-bb79aef09d62">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ab9cf8e1-c466-422b-830c-511d4f14bde2">
+          <AttributeID>Quarter Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="00248777-ed31-456b-80d6-a1a34cece580">
+          <AttributeID>Year Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8b652e3b-e744-4d73-a8ff-2afd4aad67a3">
+          <AttributeID>Is Weekend</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
@@ -948,6 +1110,33 @@
       <Attributes>
         <Attribute dwd:design-time-name="71741527-a54a-4811-8105-94ad668844ac">
           <AttributeID>Date Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9ee8ad55-212c-4463-9e29-3a3fc756bacb">
+          <AttributeID>Full Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="079cb08a-af07-46e1-b420-e3186fb156c5">
+          <AttributeID>Day Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2dccd83b-0e0b-4f0a-a49c-e0025026ec34">
+          <AttributeID>Day Name 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9c659155-77c9-457e-8dc8-09c9c3a297ae">
+          <AttributeID>Week Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="37682bcd-fc6e-4b38-a4f9-0f2a57ebf523">
+          <AttributeID>Month Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b8fc11b7-5769-4ea0-b5a1-0397771be536">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9c02bfdb-200e-47dd-bee8-8feb8868099e">
+          <AttributeID>Quarter Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bc35cc30-c3ab-4ff3-a3cb-7e09e2b74198">
+          <AttributeID>Year Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="799182f0-5a20-4583-8e5f-bd965eccf309">
+          <AttributeID>Is Weekend</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
