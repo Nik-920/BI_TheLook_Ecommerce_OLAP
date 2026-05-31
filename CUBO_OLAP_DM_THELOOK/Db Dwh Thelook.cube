@@ -802,6 +802,9 @@
         <Attribute dwd:design-time-name="b919868a-fdd5-4984-917d-e0c1ee9afb3c">
           <AttributeID>Event Type Key</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="b4844097-826d-49f7-b7d1-77da1c935382">
+          <AttributeID>Event Type Name</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="4f32f7bd-239e-47c3-a664-108ee3357de8">
