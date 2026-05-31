@@ -836,6 +836,11 @@
           <AttributeID>Postal Code</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="3413a0d8-8a0e-47c4-b590-ddfacf0dd4b5">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="d1151910-d496-497a-917e-b099f9db43cf">
       <ID>Dim Product</ID>
