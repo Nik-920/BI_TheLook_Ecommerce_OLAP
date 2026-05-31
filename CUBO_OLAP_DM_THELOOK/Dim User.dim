@@ -328,7 +328,7 @@
   <Hierarchies>
     <Hierarchy dwd:design-time-name="6418ef54-13e7-4257-ba6f-2c38b4305fdc">
       <ID>Jerarquía</ID>
-      <Name>Ubicación Usuario</Name>
+      <Name>Ubicacion Usuario</Name>
       <Levels>
         <Level dwd:design-time-name="1a87da11-1e4f-443a-bdff-4199b371397c">
           <ID>Country Name</ID>

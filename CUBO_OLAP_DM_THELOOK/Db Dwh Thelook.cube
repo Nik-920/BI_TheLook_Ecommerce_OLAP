@@ -885,9 +885,6 @@
         <Attribute dwd:design-time-name="95b51697-8582-4aeb-b5c9-9c35a283a8f3">
           <AttributeID>Day Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="478deb28-ec9e-4bd3-9d74-94709f86ef2b">
-          <AttributeID>Day Name 1</AttributeID>
-        </Attribute>
         <Attribute dwd:design-time-name="80c2ada6-1ff2-40ce-8641-cf8788ead57d">
           <AttributeID>Week Number</AttributeID>
         </Attribute>
@@ -907,6 +904,11 @@
           <AttributeID>Is Weekend</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="6c510fca-a55a-4268-a39b-9f9c256eca09">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="4319373b-d689-4cbe-991c-3c59da18b1b0">
       <ID>Sold Date</ID>
@@ -921,9 +923,6 @@
         </Attribute>
         <Attribute dwd:design-time-name="0a783196-3469-4b68-9af7-720e6a6aa346">
           <AttributeID>Day Name</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="ad9fc51a-197d-4412-b692-e2e29e1b462d">
-          <AttributeID>Day Name 1</AttributeID>
         </Attribute>
         <Attribute dwd:design-time-name="16c8923b-a9b0-4a2e-a146-b9a6bc994138">
           <AttributeID>Week Number</AttributeID>
@@ -944,6 +943,11 @@
           <AttributeID>Is Weekend</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="f7a0ee1f-8316-4369-a629-72f8e8ebfdcd">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="5e8bb646-3b23-4fda-976f-430256972cca">
       <ID>Dim Order Status</ID>
@@ -972,9 +976,6 @@
         <Attribute dwd:design-time-name="4f18d502-6990-44df-a19f-8201f0b08871">
           <AttributeID>Day Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6cfb6d73-0e80-40e0-9b35-ffa28328f012">
-          <AttributeID>Day Name 1</AttributeID>
-        </Attribute>
         <Attribute dwd:design-time-name="63e536c8-0afc-46c5-9057-ff49b0081245">
           <AttributeID>Week Number</AttributeID>
         </Attribute>
@@ -994,6 +995,11 @@
           <AttributeID>Is Weekend</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="625057a2-bdc7-44cf-8bb5-8e257b53afff">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="db3f32c7-7877-4741-bda8-54972608cdf8">
       <ID>Shipped Date</ID>
@@ -1008,9 +1014,6 @@
         </Attribute>
         <Attribute dwd:design-time-name="04d4039c-11a2-4889-a30c-97de7ca67632">
           <AttributeID>Day Name</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="36d0dcc3-7ebe-4993-a5e6-7275283f904f">
-          <AttributeID>Day Name 1</AttributeID>
         </Attribute>
         <Attribute dwd:design-time-name="4b19dd14-bd1b-4c07-b9be-8f0874442614">
           <AttributeID>Week Number</AttributeID>
@@ -1031,6 +1034,11 @@
           <AttributeID>Is Weekend</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="c8c25139-2a77-4d3a-aa9d-2c1f7baaea9a">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="aff2a2b0-0b7f-493a-9a93-eaa4a70c62ea">
       <ID>Delivered Date</ID>
@@ -1045,9 +1053,6 @@
         </Attribute>
         <Attribute dwd:design-time-name="628aff22-66f2-4685-8aef-460d18dba860">
           <AttributeID>Day Name</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="c53f9f3e-32bb-4714-a080-1de569ef5cc0">
-          <AttributeID>Day Name 1</AttributeID>
         </Attribute>
         <Attribute dwd:design-time-name="e7af296c-30f6-4de0-a9b6-cc3a07d9757a">
           <AttributeID>Week Number</AttributeID>
@@ -1068,6 +1073,11 @@
           <AttributeID>Is Weekend</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="1941ef5b-6707-4461-9b48-055e607a8964">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="6f1d1643-b9a3-46b1-9beb-6f086ccc37d0">
       <ID>Returned Date</ID>
@@ -1082,9 +1092,6 @@
         </Attribute>
         <Attribute dwd:design-time-name="9b2da14d-fae7-48fa-9e29-ebafa2b690de">
           <AttributeID>Day Name</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="844580f9-c015-4438-8567-8939c8669f8e">
-          <AttributeID>Day Name 1</AttributeID>
         </Attribute>
         <Attribute dwd:design-time-name="a07d17e5-e731-4719-86db-8d23a8164774">
           <AttributeID>Week Number</AttributeID>
@@ -1105,6 +1112,11 @@
           <AttributeID>Is Weekend</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="5c27cd19-60d9-426b-a86c-3b7a2487fc29">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="dd17cb73-dac1-49e6-9444-8a60317cdf0d">
       <ID>Dim Order Item Status</ID>
@@ -1133,9 +1145,6 @@
         <Attribute dwd:design-time-name="079cb08a-af07-46e1-b420-e3186fb156c5">
           <AttributeID>Day Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2dccd83b-0e0b-4f0a-a49c-e0025026ec34">
-          <AttributeID>Day Name 1</AttributeID>
-        </Attribute>
         <Attribute dwd:design-time-name="9c659155-77c9-457e-8dc8-09c9c3a297ae">
           <AttributeID>Week Number</AttributeID>
         </Attribute>
@@ -1155,6 +1164,11 @@
           <AttributeID>Is Weekend</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="d8ec4c5c-1a77-491c-b31a-97e921271a7b">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>

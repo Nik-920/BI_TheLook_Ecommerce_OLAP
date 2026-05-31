@@ -65,6 +65,49 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
       <Value>150</Value>
     </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="148">
+            <Shape Id="Date Key" Expanded="false">
+              <Attributes>
+                <Attribute Id="Date Key" />
+                <Attribute Id="Month Number" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Full Date" Expanded="true">
+              <Attributes>
+                <Attribute Id="Full Date" />
+                <Attribute Id="Day Name" />
+                <Attribute Id="Is Weekend" />
+                <Attribute Id="Week Number" />
+              </Attributes>
+              <Position x="210" y="20" />
+            </Shape>
+            <Shape Id="Month Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Month Name" />
+              </Attributes>
+              <Position x="400" y="20" />
+            </Shape>
+            <Shape Id="Quarter Number" Expanded="false">
+              <Attributes>
+                <Attribute Id="Quarter Number" />
+              </Attributes>
+              <Position x="590" y="20" />
+            </Shape>
+            <Shape Id="Year Number" Expanded="false">
+              <Attributes>
+                <Attribute Id="Year Number" />
+              </Attributes>
+              <Position x="780" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
@@ -98,37 +141,9 @@
           <AttributeID>Full Date</AttributeID>
           <Name>Full Date</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="be9edbe7-266e-479b-b996-b2598982f5a1">
-          <AttributeID>Day Name</AttributeID>
-          <Name>Day Name</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="74d64c67-60dd-46b0-8b93-c917518b894b">
-          <AttributeID>Day Name 1</AttributeID>
-          <Name>Day Name 1</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="0b272acc-949b-4d0b-91b7-6bf4de050af9">
-          <AttributeID>Week Number</AttributeID>
-          <Name>Week Number</Name>
-        </AttributeRelationship>
         <AttributeRelationship dwd:design-time-name="4aeb0df1-8621-4109-99c2-3b0621250a71">
           <AttributeID>Month Number</AttributeID>
           <Name>Month Number</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="c6fae04e-691d-4b8b-85a0-203c4fa377bd">
-          <AttributeID>Month Name</AttributeID>
-          <Name>Month Name</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="79845058-1b27-4ec3-8d14-c7fe4c80a53e">
-          <AttributeID>Quarter Number</AttributeID>
-          <Name>Quarter Number</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="359a30b8-f1ef-4d23-9a77-4e146c9cc963">
-          <AttributeID>Year Number</AttributeID>
-          <Name>Year Number</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="5e72ca7d-03fa-441b-8c35-a4857f5e5d39">
-          <AttributeID>Is Weekend</AttributeID>
-          <Name>Is Weekend</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
@@ -147,6 +162,24 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="725c99e9-9439-4672-9f93-ec99329c9573">
+          <AttributeID>Month Name</AttributeID>
+          <Name>Month Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="40656184-adc1-40e5-aa90-1fc47583daa5">
+          <AttributeID>Day Name</AttributeID>
+          <Name>Day Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="81de5fec-fc57-4bf9-b51b-e33758e9f18d">
+          <AttributeID>Is Weekend</AttributeID>
+          <Name>Is Weekend</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="aba4f9f8-5bda-4610-a90c-4ea06a149d3f">
+          <AttributeID>Week Number</AttributeID>
+          <Name>Week Number</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -158,22 +191,6 @@
           <DataType>WChar</DataType>
           <DataSize>20</DataSize>
           <Source xsi:type="ColumnBinding" dwd:design-time-name="cc0b51a3-9fd5-4fa1-a806-93b7f641fee0">
-            <TableID>dbo_dim_date</TableID>
-            <ColumnID>day_name</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="6d88a22d-ea7a-473d-b417-56abe0578509">
-      <ID>Day Name 1</ID>
-      <Name>Day Name 1</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="ad1a2a7c-eb66-49d5-9002-87fbd65f2957">
-          <DataType>WChar</DataType>
-          <DataSize>20</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="6d382014-0bcc-43e6-b515-0df71ab2546c">
             <TableID>dbo_dim_date</TableID>
             <ColumnID>day_name</ColumnID>
           </Source>
@@ -225,6 +242,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="8389df20-cc23-4ac0-b9a5-1a13906eceb6">
+          <AttributeID>Quarter Number</AttributeID>
+          <Name>Quarter Number</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -240,6 +263,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="850d7365-a904-4ad0-8d40-7854dfc72a9e">
+          <AttributeID>Year Number</AttributeID>
+          <Name>Year Number</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -274,5 +303,33 @@
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
   </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="1eb410c7-ca97-4bda-b7be-919fba367264">
+      <ID>Jerarquía</ID>
+      <Name>Calendario</Name>
+      <Levels>
+        <Level dwd:design-time-name="f62774ec-ec98-421b-b43a-67fa563421a6">
+          <ID>Year Number</ID>
+          <Name>Year Number</Name>
+          <SourceAttributeID>Year Number</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="633d7178-82a7-4164-90ea-eda402eb5d6a">
+          <ID>Quarter Number</ID>
+          <Name>Quarter Number</Name>
+          <SourceAttributeID>Quarter Number</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="c6c9c9eb-1856-4086-af59-a1165073c234">
+          <ID>Month Name</ID>
+          <Name>Month Name</Name>
+          <SourceAttributeID>Month Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="90ba3128-f652-4129-8600-056bd040532f">
+          <ID>Full Date</ID>
+          <Name>Full Date</Name>
+          <SourceAttributeID>Full Date</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>
