@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2647" scrolltop="-5660" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="17505" y="11070" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2647" scrolltop="-5660" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="15282" y="11240" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
@@ -135,6 +135,13 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="13e4ee77-16e2-4085-a896-fda9452e55f0">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="8f6e036d-eb2d-4329-a73b-ca6877aeae07">
+          <TableID>dbo_dim_user</TableID>
+          <ColumnID>user_key</ColumnID>
+        </Source>
+      </NameColumn>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="12cafe32-13a8-4a12-bda7-266f351d45b3">
           <AttributeID>User Id</AttributeID>
@@ -162,6 +169,7 @@
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -177,6 +185,13 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="96b25847-6777-4fd1-9269-86ea14ef6e16">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="69ebcd5a-fb8b-43f7-96b0-7ac8b95f7e6c">
+          <TableID>dbo_dim_user</TableID>
+          <ColumnID>user_id</ColumnID>
+        </Source>
+      </NameColumn>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -192,6 +207,13 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="69756e11-b16d-43ae-9c72-95042d8fec69">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="66a616c9-6a47-4718-b5ad-0861f690374e">
+          <TableID>dbo_dim_user</TableID>
+          <ColumnID>age</ColumnID>
+        </Source>
+      </NameColumn>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -199,15 +221,22 @@
       <ID>Gender Name</ID>
       <Name>Gender Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="fa0f9739-3253-4dce-9b81-0d2173cd2e35">
-          <DataType>WChar</DataType>
-          <DataSize>1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c7a2f958-db36-4e28-8f7d-212305846f23">
+        <KeyColumn dwd:design-time-name="d2f53657-db10-4c68-a5eb-7a097a844178">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ced9143a-54ad-4b2f-87d5-25781d22ac99">
             <TableID>dbo_dim_user</TableID>
-            <ColumnID>gender_name</ColumnID>
+            <ColumnID>gender_id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="c060c0c9-0c8c-4f4c-a99b-3ad568f7addf">
+        <DataType>WChar</DataType>
+        <DataSize>1</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="d24c9f83-30b3-4dbc-9ed2-38ffe5128ec0">
+          <TableID>dbo_dim_user</TableID>
+          <ColumnID>gender_name</ColumnID>
+        </Source>
+      </NameColumn>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -215,15 +244,22 @@
       <ID>Traffic Source Name</ID>
       <Name>Traffic Source Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="a96eba69-8af2-4bef-bf6f-19bf23153b49">
-          <DataType>WChar</DataType>
-          <DataSize>255</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="1627250b-c54c-40d3-9d1e-a3f66ce2e262">
+        <KeyColumn dwd:design-time-name="d4482735-4f7b-4473-b021-de103c0c5659">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c1426c32-087b-4428-8ffa-7e9470f4cd01">
             <TableID>dbo_dim_user</TableID>
-            <ColumnID>traffic_source_name</ColumnID>
+            <ColumnID>user_id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="88b86041-06ca-4e9c-a5c5-52809f6e812b">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="6b4d033e-02af-4fc2-8ca6-2b9a75b087fa">
+          <TableID>dbo_dim_user</TableID>
+          <ColumnID>traffic_source_name</ColumnID>
+        </Source>
+      </NameColumn>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -231,15 +267,22 @@
       <ID>Postal Code</ID>
       <Name>Postal Code</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="51cc06d2-29eb-428e-a244-74232fcc72a4">
-          <DataType>WChar</DataType>
-          <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4a2d19f3-9990-40ab-9680-caee32e9e29c">
+        <KeyColumn dwd:design-time-name="9c7b9894-ee2d-4f48-b2f8-69d68dc9e0e7">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b2069d55-c545-4c67-bef7-fd4bdbb91832">
             <TableID>dbo_dim_user</TableID>
-            <ColumnID>postal_code</ColumnID>
+            <ColumnID>user_id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="9cd167a5-90f1-4055-ac36-0a779fa108c9">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="1b425f93-f856-42f0-99c7-a5c65ac4723a">
+          <TableID>dbo_dim_user</TableID>
+          <ColumnID>postal_code</ColumnID>
+        </Source>
+      </NameColumn>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="4ed3943f-262c-4582-9b5e-121d9784e00f">
           <AttributeID>City Name</AttributeID>
@@ -253,15 +296,22 @@
       <ID>City Name</ID>
       <Name>City Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="699499f3-e40a-47c4-b10e-0f8598ff2528">
-          <DataType>WChar</DataType>
-          <DataSize>255</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="60e771bf-7dea-4f2a-b37d-ff0319529e27">
+        <KeyColumn dwd:design-time-name="debd360c-4d59-4c7d-98c4-654976acd490">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c810420c-1b8e-44e1-a054-920927fbd86c">
             <TableID>dbo_dim_user</TableID>
-            <ColumnID>city_name</ColumnID>
+            <ColumnID>user_id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="65067645-11d9-498a-a87d-93b9cf8ceb22">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="f7473ec3-5ec2-4fa1-bcf2-fcdbd0226cfa">
+          <TableID>dbo_dim_user</TableID>
+          <ColumnID>city_name</ColumnID>
+        </Source>
+      </NameColumn>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="bf738fe4-aaf5-4433-8bfb-e20a2d2f082c">
           <AttributeID>State Name</AttributeID>
@@ -275,15 +325,22 @@
       <ID>State Name</ID>
       <Name>State Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c7928514-d590-437a-a4e8-46d90895f5bb">
-          <DataType>WChar</DataType>
-          <DataSize>255</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d79a654c-3a35-4235-aee7-c38b98d823a4">
+        <KeyColumn dwd:design-time-name="bd4d69e6-32ca-478f-8ab2-f9fc7b2782ed">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9be50876-23cd-467d-9e01-8c514ccb6148">
             <TableID>dbo_dim_user</TableID>
-            <ColumnID>state_name</ColumnID>
+            <ColumnID>user_id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="6002b976-29ab-4296-9da6-674f0cf0a574">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9f709b40-088a-486c-aba8-741a55caa032">
+          <TableID>dbo_dim_user</TableID>
+          <ColumnID>state_name</ColumnID>
+        </Source>
+      </NameColumn>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="1e36493a-dc84-4334-a22f-5c202bc5e41e">
           <AttributeID>Country Name</AttributeID>
@@ -297,15 +354,22 @@
       <ID>Country Name</ID>
       <Name>Country Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="e8e2577d-3ea5-4339-b5ee-00ea5a35356c">
-          <DataType>WChar</DataType>
-          <DataSize>255</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="afeb726e-f98b-4a45-b702-da36de0e85ad">
+        <KeyColumn dwd:design-time-name="333addb0-7eaa-46af-b285-9411edb08dd1">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a9e45dc0-361c-40e2-9be0-4b5315df347b">
             <TableID>dbo_dim_user</TableID>
-            <ColumnID>country_name</ColumnID>
+            <ColumnID>user_id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="c9544408-ed74-4eb0-b04e-4b02ed1061f9">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="3f2e9e66-dc95-4acb-9602-c967fa32c7bc">
+          <TableID>dbo_dim_user</TableID>
+          <ColumnID>country_name</ColumnID>
+        </Source>
+      </NameColumn>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -313,14 +377,21 @@
       <ID>User Created At</ID>
       <Name>User Created At</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="5bb92166-1165-4c7b-bf1b-1bbc1673afdb">
-          <DataType>Date</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2e3c38de-362f-4a88-9825-d4f6071f0159">
+        <KeyColumn dwd:design-time-name="259a9a44-e0fb-4f6b-8f8d-b17209a4b66a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="caf2b6e7-ad35-415d-90ea-7fc8812f7e03">
             <TableID>dbo_dim_user</TableID>
-            <ColumnID>user_created_at</ColumnID>
+            <ColumnID>user_id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="da4505b5-f447-4802-8eb4-97c39c9fd89b">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="b00fddd3-61ff-468a-b6ba-591e19440133">
+          <TableID>dbo_dim_user</TableID>
+          <ColumnID>user_created_at</ColumnID>
+        </Source>
+      </NameColumn>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>

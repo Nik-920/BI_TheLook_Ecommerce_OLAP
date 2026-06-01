@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2721" scrolltop="-4202" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9144" y="11070" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2721" scrolltop="-3403" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8001" y="11240" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
@@ -51,7 +51,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-4202</Value>
+      <Value>-3403</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -124,6 +124,13 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="a70ec2f6-dcb6-4e92-a77b-c2ec18b1b8fb">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="87041af2-20d7-4fa8-ac2a-7d25553f5d4d">
+          <TableID>dbo_dim_event_location</TableID>
+          <ColumnID>event_location_key</ColumnID>
+        </Source>
+      </NameColumn>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="e0743b2a-3cd9-49ad-acc9-64f2cc1493d8">
           <AttributeID>Postal Code</AttributeID>
@@ -131,6 +138,7 @@
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
+      <AttributeHierarchyOrdered>false</AttributeHierarchyOrdered>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -138,15 +146,22 @@
       <ID>City Name</ID>
       <Name>City Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c9ee9700-b783-4ad4-86d9-18e8fd578d7c">
-          <DataType>WChar</DataType>
-          <DataSize>255</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="31d2d206-d3ec-45bf-b3e7-199efbe5e6ba">
+        <KeyColumn dwd:design-time-name="a8fb603b-6f28-4059-ba0e-48d6674a88f6">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e372646b-a3c8-47cc-a135-753d96fc1940">
             <TableID>dbo_dim_event_location</TableID>
-            <ColumnID>city_name</ColumnID>
+            <ColumnID>event_location_id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="3c18fb03-cadf-4ac1-b7a3-a975d62d2b8f">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="0cb6b186-4ec5-4216-b886-7a81a9628df2">
+          <TableID>dbo_dim_event_location</TableID>
+          <ColumnID>city_name</ColumnID>
+        </Source>
+      </NameColumn>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="2896d0c2-6439-4272-93b5-93ce191c3eba">
           <AttributeID>State Name</AttributeID>
@@ -160,15 +175,22 @@
       <ID>State Name</ID>
       <Name>State Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="eacc3865-8ab4-4f18-b494-cdb02263cf6d">
-          <DataType>WChar</DataType>
-          <DataSize>255</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="651aa07c-7f09-4cfa-b964-3ead34250534">
+        <KeyColumn dwd:design-time-name="88927fd5-4208-4eb6-b491-0b879b7e18cf">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="275bc17b-e1c2-4122-bacc-a16328bf5aca">
             <TableID>dbo_dim_event_location</TableID>
-            <ColumnID>state_name</ColumnID>
+            <ColumnID>event_location_id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="7dc62cdb-d21e-4928-8f99-d5ee43e86df7">
+        <DataType>WChar</DataType>
+        <DataSize>255</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="f3866f24-ea16-445a-913e-ee6d0b264b1a">
+          <TableID>dbo_dim_event_location</TableID>
+          <ColumnID>state_name</ColumnID>
+        </Source>
+      </NameColumn>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -176,15 +198,22 @@
       <ID>Postal Code</ID>
       <Name>Postal Code</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="7ee14c29-0567-4ef2-985b-11bee94e3391">
-          <DataType>WChar</DataType>
-          <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="aeb5a9de-4642-49cc-afab-355827014d6e">
+        <KeyColumn dwd:design-time-name="ea02d7cb-f9f6-471d-8dcd-7fa715e15fff">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1ce68c0a-0ef7-4abc-a077-fe0392ea8b4b">
             <TableID>dbo_dim_event_location</TableID>
-            <ColumnID>postal_code</ColumnID>
+            <ColumnID>event_location_id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="09c89506-5fd8-468c-bd76-e059f2b97fec">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="c2c47292-5d36-42e6-ac3c-6877da960a61">
+          <TableID>dbo_dim_event_location</TableID>
+          <ColumnID>postal_code</ColumnID>
+        </Source>
+      </NameColumn>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="29fc10ac-b18e-4821-8f14-ec31bd3329f4">
           <AttributeID>City Name</AttributeID>
